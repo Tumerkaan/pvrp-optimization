@@ -2,6 +2,16 @@
 
 Personal operations-research project by Tumer Kaan Mutlu.
 
+**Case study:** [Architecture and decisions](docs/architecture.md) | [Evaluation and limitations](docs/evaluation.md) | [User walkthrough](docs/demo.md)
+
+## Why this project matters
+
+A geographically compact route is not automatically a valid weekly plan. Recurring visits must fit service-frequency rules and each representative's available time. This project explores that tension through an experimental planning engine and a configurable interface, making constraint violations visible rather than hiding them behind a single objective score.
+
+## My role
+
+I worked on the Python planning workflow, solver experiments, constraint diagnostics and comparisons between candidate outputs. The interface exposes planning preferences and execution budgets so that experiments can be repeated under explicit settings.
+
 ## Problem
 
 Plan recurring visits across multiple days while managing daily visit limits, service frequency, working-time constraints, geographic overlap and workload balance.
